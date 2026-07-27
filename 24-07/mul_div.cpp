@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-namespace sujal 
-{
+namespace sujal {
     int mult() {
         int a,b,mult;
         cout<<"Enter first number : ";

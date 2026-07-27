@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-namespace sujal 
-{
+namespace sujal {
     int add()
      {
         int a,b,sum;

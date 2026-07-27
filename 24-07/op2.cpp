@@ -30,6 +30,6 @@ int main() {
         }
         cout<<"\nDo you want to perform another operation? (y/n): ";
         cin>>i;
-    } while (i == 'y' || i == 'Y');
+    } while (i=='y'||i=='Y');
     return 0;
 }
