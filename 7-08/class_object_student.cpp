@@ -11,7 +11,8 @@ class Student {
             cout << "Enter Student Name: ";
             getline(cin >> ws, name);
             cout << "Enter Roll Number: ";
-            cin >> rollNo; cout << "Enter Marks: ";
+            cin >> rollNo;
+            cout << "Enter Marks: ";
             cin >> marks;
         }
         void displayDetails() const {
@@ -22,8 +23,13 @@ class Student {
         }
 };
 int main() {
-    Student s;
+    Student s,s1,s2;
     s.inputDetails();
+    s1.inputDetails();
+    s2.inputDetails();
+    
     s.displayDetails();
+    s1.displayDetails();
+    s2.displayDetails();
     return 0;
 } 
