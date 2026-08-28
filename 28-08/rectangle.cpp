@@ -37,7 +37,9 @@ class Rectangle {
 }; 
 int main() { 
 // Create a rectangle with custom values 
-    Rectangle rect(4.0, 40.0); 
+    Rectangle rect;                   // We can also use Rectangle rect(10.8, 8.5); to initialize with custom values
+    rect.setLength(10.8);
+    rect.setWidth(8.5);
 // Display properties 
     std::cout<<"Rectangle properties:"<<std::endl; 
     std::cout<<"Length: "<<rect.getLength()<<std::endl; 
